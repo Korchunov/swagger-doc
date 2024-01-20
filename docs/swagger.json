@@ -1,0 +1,19 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "service ms-rating",
+        "title": "Swagger ms-rating",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "NumberAuth": {
+            "type": "apiKey",
+            "name": "number",
+            "in": "header"
+        }
+    }
+}

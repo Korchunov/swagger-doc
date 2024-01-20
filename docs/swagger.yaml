@@ -1,0 +1,14 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  description: service ms-rating
+  title: Swagger ms-rating
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  NumberAuth:
+    in: header
+    name: number
+    type: apiKey
+swagger: "2.0"
